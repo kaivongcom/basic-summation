@@ -2,10 +2,6 @@ import main
 message = '...'
 expected_rusults = { "xv": 15  }
 
-if main.summation() == expected_rusults['xv']:
-  message = 'passes running test'
-else:
-  message = 'fails the run test'
-
+message = 'passes running test' if (main.summation() == expected_rusults['xv']) else 'fails the run test'
 print(message)
 
