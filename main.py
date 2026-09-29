@@ -6,7 +6,4 @@ def summation():
     a, b, c = s_list
     return (a + b + c) 
   else:
-    print("Your arguments should be a List of 3 ints, sorry") 
-
-
-
+    print("Please make function arguments there, List of 3 ints")
