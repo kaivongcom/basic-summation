@@ -1,8 +1,7 @@
-SUMMATION_LIST = [4,5,6]
 SUMMATION_OBJ = { "four": 4, "five": 5, "six": 6 } 
 
 def summation():
-  s_list = SUMMATION_LIST
+  s_list = list(SUMMATION_OBJ.values())
   if (type(s_list) == list) and len(s_list) == 3:
     a, b, c = s_list
     return (a + b + c) 
