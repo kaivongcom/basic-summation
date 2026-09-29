@@ -1,4 +1,7 @@
-SUMMATION_OBJ = { "four": 4, "five": 5, "six": 6 } 
+S_LIST, S_LIST2, s_obj = [4,5,6], ['four', 'five', 'six'], {}
+
+for item in S_LIST: item_keyname = S_LIST[S_LIST.index(item)]; s_obj[item_keyname] = item
+SUMMATION_OBJ = s_obj
 
 def summation():
   s_list = list(SUMMATION_OBJ.values())
