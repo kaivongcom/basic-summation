@@ -1,6 +1,6 @@
 # README.md
 
-A readme markdown file about "summation":
+A readme markdown file about "summation", branch for 100_count [see twitter](https://x.com/Rainmaker1973/status/2108953200942600201?s=20) "the sum of all numbers from 1 to 100?" :
 
 ```
 4 + 5 + 6 is a summation (a sum).
