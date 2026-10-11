@@ -1,7 +1,8 @@
+#!/usr/bin/env python
+
 import main
 message = '...'
-expected_rusults = { "xv": 15  }
+expected_rusults = { "xv": 5050  }
 
 message = 'passes running test' if (main.summation() == expected_rusults['xv']) else 'fails the run test'
 print(message)
-
