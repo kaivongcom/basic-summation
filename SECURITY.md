@@ -5,7 +5,7 @@ read both source code, readme.
 
 ## Supported Versions
 
-🤷 run on Python `3.13`
+🤷 runs on Python `3.14`
 
 ## Reporting a Vulnerability
 

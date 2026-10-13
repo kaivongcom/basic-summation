@@ -1,7 +1,7 @@
 import main
 message = '...'
-expected_rusults = { "xv": 15  }
+summation_of_numbers_1_to_100 = 15
+expected_rusults = { "i": summation_of_numbers_1_to_100 }
 
-message = 'passes running test' if (main.summation() == expected_rusults['xv']) else 'fails the run test'
+message = 'passes running test' if (main.summation() == expected_rusults['i']) else 'fails the run test'
 print(message)
-
