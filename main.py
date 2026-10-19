@@ -1,7 +1,7 @@
-S_LIST, S_LIST2, s_obj = [int(),int(),int()], [str(), str(), str()], {}
+S_LIST, S_LIST2, s_obj = set({int(4),int(5),int(6)}), [str('four'), str('five'), str('six')], {}
 MAX_LENGTH = 3
 
-for item in S_LIST: item_keyname = S_LIST[S_LIST.index(item)]; s_obj[item_keyname] = item
+for item in S_LIST2: s_obj[item] = S_LIST.pop()
 SUMMATION_OBJ = s_obj
 
 def summation():
